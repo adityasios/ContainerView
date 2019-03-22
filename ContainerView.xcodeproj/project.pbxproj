@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4008BBE422455B8F00FF45A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBE322455B8F00FF45A9 /* AppDelegate.swift */; };
-		4008BBE622455B8F00FF45A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBE522455B8F00FF45A9 /* ViewController.swift */; };
 		4008BBE922455B8F00FF45A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4008BBE722455B8F00FF45A9 /* Main.storyboard */; };
 		4008BBEB22455B9700FF45A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4008BBEA22455B9700FF45A9 /* Assets.xcassets */; };
 		4008BBEE22455B9700FF45A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4008BBEC22455B9700FF45A9 /* LaunchScreen.storyboard */; };
+		4008BBF622455BAD00FF45A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4008BBF522455BAD00FF45A9 /* README.md */; };
+		4008BBF822455BC900FF45A9 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBF722455BC900FF45A9 /* BaseViewController.swift */; };
+		4008BBFA22455D5900FF45A9 /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBF922455D5900FF45A9 /* ScoreViewController.swift */; };
+		4008BBFC22455E9800FF45A9 /* StartupQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBFB22455E9800FF45A9 /* StartupQuizViewController.swift */; };
+		4008BBFE22455F8A00FF45A9 /* ScienceQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBFD22455F8A00FF45A9 /* ScienceQuizViewController.swift */; };
+		4008BC002245606700FF45A9 /* ScoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BBFF2245606700FF45A9 /* ScoreDelegate.swift */; };
+		4008BC022245628600FF45A9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4008BC012245628600FF45A9 /* TabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4008BBE022455B8F00FF45A9 /* ContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4008BBE322455B8F00FF45A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4008BBE522455B8F00FF45A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4008BBE822455B8F00FF45A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4008BBEA22455B9700FF45A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4008BBED22455B9700FF45A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4008BBEF22455B9700FF45A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4008BBF522455BAD00FF45A9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4008BBF722455BC900FF45A9 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4008BBF922455D5900FF45A9 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		4008BBFB22455E9800FF45A9 /* StartupQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartupQuizViewController.swift; sourceTree = "<group>"; };
+		4008BBFD22455F8A00FF45A9 /* ScienceQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceQuizViewController.swift; sourceTree = "<group>"; };
+		4008BBFF2245606700FF45A9 /* ScoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDelegate.swift; sourceTree = "<group>"; };
+		4008BC012245628600FF45A9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,7 @@
 		4008BBD722455B8F00FF45A9 = {
 			isa = PBXGroup;
 			children = (
+				4008BBF522455BAD00FF45A9 /* README.md */,
 				4008BBE222455B8F00FF45A9 /* ContainerView */,
 				4008BBE122455B8F00FF45A9 /* Products */,
 			);
@@ -55,7 +68,12 @@
 			isa = PBXGroup;
 			children = (
 				4008BBE322455B8F00FF45A9 /* AppDelegate.swift */,
-				4008BBE522455B8F00FF45A9 /* ViewController.swift */,
+				4008BBFF2245606700FF45A9 /* ScoreDelegate.swift */,
+				4008BBF722455BC900FF45A9 /* BaseViewController.swift */,
+				4008BBF922455D5900FF45A9 /* ScoreViewController.swift */,
+				4008BC012245628600FF45A9 /* TabBar.swift */,
+				4008BBFB22455E9800FF45A9 /* StartupQuizViewController.swift */,
+				4008BBFD22455F8A00FF45A9 /* ScienceQuizViewController.swift */,
 				4008BBE722455B8F00FF45A9 /* Main.storyboard */,
 				4008BBEA22455B9700FF45A9 /* Assets.xcassets */,
 				4008BBEC22455B9700FF45A9 /* LaunchScreen.storyboard */,
@@ -124,6 +142,7 @@
 			files = (
 				4008BBEE22455B9700FF45A9 /* LaunchScreen.storyboard in Resources */,
 				4008BBEB22455B9700FF45A9 /* Assets.xcassets in Resources */,
+				4008BBF622455BAD00FF45A9 /* README.md in Resources */,
 				4008BBE922455B8F00FF45A9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4008BBE622455B8F00FF45A9 /* ViewController.swift in Sources */,
 				4008BBE422455B8F00FF45A9 /* AppDelegate.swift in Sources */,
+				4008BBFC22455E9800FF45A9 /* StartupQuizViewController.swift in Sources */,
+				4008BBFE22455F8A00FF45A9 /* ScienceQuizViewController.swift in Sources */,
+				4008BC002245606700FF45A9 /* ScoreDelegate.swift in Sources */,
+				4008BBF822455BC900FF45A9 /* BaseViewController.swift in Sources */,
+				4008BBFA22455D5900FF45A9 /* ScoreViewController.swift in Sources */,
+				4008BC022245628600FF45A9 /* TabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = ContainerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +328,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RPK4XC758S;
 				INFOPLIST_FILE = ContainerView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
